@@ -38,7 +38,7 @@ const Hero = () => {
               Healthy and yummy food for fresh morning breakfast. Get clean
               health and Mind. Eat Daily for a Better Tomorrow. Order Now and
               get 20% off on your order
-            </p>k
+            </p>
             {/* Button Section  */}
             <div
                 data-aos = "fade-right"
