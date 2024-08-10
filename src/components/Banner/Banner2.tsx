@@ -1,19 +1,15 @@
-import image from "../../assets/fruits-splash.png"
+import image from "../../assets/fruit-plate2.png"
 import aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
-const Banner = () => {
+const Banner2 = () => {
   useEffect(() => {
     aos.init()
   })
   return (
-    <section className="bg-secondary/10">
+    <section className="">
       <div className="container flex justify-center items-center space-y-6 sm:space-y-0 py-14 ">
-        {/* Banner image */} 
-        <img
-          data-aos="fade-up"
-          data-aos-duration="3000"
-          src={image} alt="" className="w-[300px] md:max-w[400px] h-full object-cover" />
+        
         {/* Brand info */}
         <div className="flex flex-col justify-center text-center md:text-left">
           <div data-aos="fade-up" data-aos-duration="2500">
@@ -30,9 +26,14 @@ const Banner = () => {
             </button>
           </div>
         </div>
+        {/* Banner image */} 
+        <img
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          src={image} alt="" className="w-[300px] md:max-w[400px] h-full object-cover" />
       </div>
     </section>
   )
 }
 
-export default Banner
+export default Banner2
