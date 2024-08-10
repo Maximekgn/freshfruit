@@ -14,9 +14,9 @@ const Banner3 = () => {
     aos.init()
   })
   return (
-    <section data-aos="zoom-in-left" data-aos-duration="3000">
+    <section data-aos="zoom-in-left" data-aos-duration="3000" >
       <div 
-        style={bgStyle} className="container flex justify-center items-center space-y-6 sm:space-y-0 py-14 ">
+        style={bgStyle} className=" rounded-lg container flex justify-center items-center space-y-6 sm:space-y-0 py-14 ">
         {/* Blank div */} 
         <div></div>
         {/* Brand info */}
