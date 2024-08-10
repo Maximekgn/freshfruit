@@ -33,9 +33,11 @@ const Banner3 = () => {
             <p className="mt-2">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, qui praesentium eos eaque magnam nihil, commodi magni quos facilis atque, placeat non voluptates laborum quasi? Soluta ut ipsum mollitia veritatis.
             </p>
-            <button className="primary-btn flex items-center gap-1 mt-5">
-              Learn More
-            </button>
+            <div className="flex justify-center md:justify-start">
+              <button className="primary-btn flex items-center gap-1 mt-5">
+                Learn More
+              </button>
+           </div>
           </div>
         </div>
       </div>
