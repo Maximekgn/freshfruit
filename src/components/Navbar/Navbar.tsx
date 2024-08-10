@@ -1,7 +1,10 @@
 import { FaLeaf } from "react-icons/fa"
 import { MdMenu, MdOutlineShoppingCart } from "react-icons/md"
 import ResponsiveMenu from "./ResponsiveMenu"
-import { useState } from "react"
+import { useState , useEffect } from "react"
+import aos from "aos" ;
+import "aos/dist/aos.css"
+
 
 interface NavbarLinks 
 {
@@ -42,9 +45,14 @@ const Navbar = () => {
 
     const [open , setOpen]:[boolean,Function] = useState(false)
     const handleOpen = ():void => setOpen(!open)
+
+    useEffect(() => {
+        aos.init();
+    }, [])
+
   return (
     <>
-        <nav>
+        <nav data-aos="fade-down" data-aos-duration="1000">
         <div className="container flex justify-between items-center py-4 md:pt-4 ">
             {/* Logo Section */}
             <div className="text-2xl font-bold upper flex items-center gap-2">
