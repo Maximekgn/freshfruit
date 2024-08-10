@@ -52,7 +52,7 @@ const Navbar = () => {
 
   return (
     <>
-        <nav data-aos="fade-down" data-aos-duration="1000">
+        <nav data-aos="fade-down" data-aos-duration="1000" className="">
         <div className="container flex justify-between items-center py-4 md:pt-4 ">
             {/* Logo Section */}
             <div className="text-2xl font-bold upper flex items-center gap-2">
